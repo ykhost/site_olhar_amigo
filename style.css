@@ -164,7 +164,7 @@ nav ul li a::after {
   left: 0;
   bottom: -1.5rem;
 
-  transition: width 0.2s;
+  transition: width 0.5s;
 }
 nav ul li a:hover::after {
   width: 100%;
@@ -222,7 +222,7 @@ nav .icon-close {
   top: -1.5rem;
   right: 1.5rem;
 
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 nav.show div.icon-close {

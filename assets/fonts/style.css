@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?swhar9');
-  src:  url('fonts/icomoon.eot?swhar9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?swhar9') format('truetype'),
-    url('fonts/icomoon.woff?swhar9') format('woff'),
-    url('fonts/icomoon.svg?swhar9#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?mmp7oi');
+  src:  url('fonts/icomoon.eot?mmp7oi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mmp7oi') format('truetype'),
+    url('fonts/icomoon.woff?mmp7oi') format('woff'),
+    url('fonts/icomoon.svg?mmp7oi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-health_healthcare_heart_love_medic_icon:before {
+  content: "\e90b";
+}
+.icon-aid_charity_non_organization_profit_icon:before {
+  content: "\e90c";
+}
+.icon-restaurant_icon:before {
+  content: "\e90d";
+}
 .icon-close:before {
   content: "\e900";
 }
