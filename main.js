@@ -30,3 +30,13 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll') // menor que a altura do header
   }
 })
+
+// Testimonial Swiper Slider
+const swiper = new Swiper('.swiper-container', {
+  slidePerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true
+})

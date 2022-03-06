@@ -7,7 +7,11 @@
 
     <!-- Icones -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
-
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -39,6 +43,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -60,6 +65,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- SOBRE NOS -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -96,6 +102,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- Servicos -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -140,7 +147,76 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="testimonial">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem ja passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sapiente blanditiis maiores ullam illo doloremque dolorum
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/32.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sapiente blanditiis maiores ullam illo doloremque dolorum
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/16.jpg"
+                      alt="Foto de Pedro Scoby"
+                    />
+                    Pedro Scoby
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sapiente blanditiis maiores ullam illo doloremque dolorum
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/91.jpg"
+                      alt="Foto de Paulo"
+                    />
+                    Paulo Andre
+                  </cite>
+                </blockquote>
+              </div>
+
+              <!-- SWAP PAGINATION -->
+              <div class="swiper-pagination"></div>
+            </div>
+        </div>
+      </section>
     </main>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- main.js -->
     <script src="main.js"></script>
   </body>
 </html>
