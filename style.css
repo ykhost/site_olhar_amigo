@@ -242,6 +242,9 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+.logo-alt span {
+  color: var(--body-color);
+}
 /*================== HOME ==================*/
 #home {
   overflow: hidden;
@@ -453,3 +456,45 @@ nav.show div.icon-close {
 #contact ul li i {
   color: var(--base-color);
 }
+
+/*================== FOOTER ==================*/
+
+footer {
+  background: var(--base-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a {
+  margin-right: 2rem;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+footer .social a:hover {
+  transform: translateY(-10px);
+}
+
+/* RESPONSIVEL */
+/* extra large devices: 1200 > */
+/* large devices: 1023 > */
+/* large devices: 992 > */
+@media (min-width: 992px) {
+  .title {
+    font-size: 2.25;
+  }
+}
+/* medium devices: 767 > */

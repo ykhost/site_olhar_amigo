@@ -33,9 +33,9 @@ window.addEventListener('scroll', function () {
 
 // Testimonial Swiper Slider
 const swiper = new Swiper('.swiper-container', {
-  slidePerView: 1,
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    type: 'bullets'
   },
   mousewheel: true,
   keyboard: true
@@ -53,8 +53,9 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonial header, #testimonial .testimonials
-  #contact .text, #contact .links
+  #testimonial header, #testimonial .testimonials,
+  #contact .text, #contact .links,
+  footer .brand, footer .social
   `,
   { interval: 100 }
 )
