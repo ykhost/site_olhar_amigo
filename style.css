@@ -242,6 +242,10 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+.logo-alt span {
+  color: var(--text-color-light);
+}
+
 /*================== HOME ==================*/
 #home {
   overflow: hidden;
@@ -452,4 +456,25 @@ nav.show div.icon-close {
 
 #contact ul li i {
   color: var(--base-color);
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--base-color);
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: 0.75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social {
+  display: flex;
+  margin-left: 1.5rem;
 }
