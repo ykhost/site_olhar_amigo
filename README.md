@@ -19,11 +19,7 @@ tecnologias: - HTML5 - CSS3 - Javascript - Swipper(para o controle deslizante)
 
 <a id="ancora2"></a>
 ## 💻 Projeto 
-Esse projeto foi elaborado durante o bootcamp da
-[Rocketseat](https://www.rocketseat.com.br/). A proposta foi construir um site a
-partir de um [Wireframe no
-Figma](https://www.figma.com/file/FXulVtW6ky3Ztixix5ixDm/Origin-Six-(Community))
-totalmente responsivo, utilizando apenas HTML, CSS e Javascript.
+Esse projeto foi elaborado para a minha ONG Olhar Amigo.
 
 <strong>Link para o site do projeto: https://ykhost.github.io/site_olhar_amigo/</strong>
 
